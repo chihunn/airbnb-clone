@@ -1,0 +1,9 @@
+{
+  "python.linting.enabled": true,
+  "python.languageServer": "Microsoft",
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "editor.defaultFormatter": "ms-python.python",
+  "python.formatting.provider": "black",
+  "python.linting.flake8Args": ["--max-line-length=88"]
+}
