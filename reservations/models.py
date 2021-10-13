@@ -12,7 +12,7 @@ class Reservation(core_models.TimeStampedModel):
     STATUS_CANCELED = "canceled"
 
     STATUS_CHOICES = (
-        (STATUS_PENDING, "Pending"),
+        (STATUS_PENDING, "pending"),
         (STATUS_CONFIRMED, "confirmed"),
         (STATUS_CANCELED, "canceled"),
     )
